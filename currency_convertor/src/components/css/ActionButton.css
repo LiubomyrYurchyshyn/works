@@ -1,0 +1,18 @@
+.action-button {
+  display: flex;
+  padding: 5px 10px 5px 10px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.action-button:before{
+  content: '';
+	border-top: 26px solid transparent;
+	border-right: 22px solid #BCBCBC;
+	border-bottom: 26px solid transparent;
+}
+.action-button:after{
+  content: '';
+	border-top: 26px solid transparent;
+	border-left: 22px solid #BCBCBC;
+	border-bottom: 26px solid transparent;
+}
